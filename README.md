@@ -24,7 +24,7 @@ locatedIn(netherlands,western_europe).
 - `*.nlt` files represent *rule templates* (example of a rule template: `#1(X,Y) :- #2(X,Z), #3(Z,Y)`)
 
 ```shell
-ntp$ cat data/ntp/simpsons.nlt
+shell$ cat data/ntp/simpsons.nlt
 5   #1(X, Y) :- #2(X, Y).
 
 5   #1(X, Y) :- #1(Y, X).
@@ -37,15 +37,6 @@ ntp$ cat data/ntp/simpsons.nlt
 ## Running
 
 The main file for running NTP is `neural-symbolic_model.ipynb` which takes the path to a configuration file as argument.
-
-## Code Structure
-
-
-## Test
-
-```shell
-nosetests
-```
 
 ## The institute to construct dataset
 * __The AI Lab in Soongsil University__
