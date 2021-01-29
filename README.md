@@ -1,5 +1,6 @@
 # Neuro-Symbolic Unificaiton Model
 This is an implementation of Neuro-Symbolic Unification Model.
+If you have any questions or comments, please fell free to contact us by email [rjs951001@gmail.com].
 
 ## Data Format
 
@@ -31,8 +32,8 @@ shell$ cat data/nations/nations.nlt
 20   #1(X, Y) :- #2(Y, X).
 
 20   #1(X, Y) :-
-    #2(X, Z),
-    #2(Z, Y).
+     #2(X, Z),
+     #2(Z, Y).
 ```
 
 ## Running
